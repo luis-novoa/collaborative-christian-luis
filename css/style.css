@@ -1,5 +1,16 @@
 body{
-  margin-left: 27em;
+  margin: 0 27em;
+  background: lightblue
+}
+
+.container {
+  background: white;
+  width: fit-content;
+  text-align: center;
+  padding: 0.5em 2em;
+  font-family: Helvetica, sans-serif;
+  border-radius: 20px;
+  margin-top: 1em;
 }
 
 #survey-form {
