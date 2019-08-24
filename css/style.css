@@ -2,3 +2,8 @@
   display: block;
   text-align: center; 
 }
+
+#survey-form {
+  display: grid;
+  grid-template: 100% / 200px 200px;
+}
