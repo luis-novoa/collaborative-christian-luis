@@ -10,19 +10,12 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">This is a demographic survey to build a new park</p>
     <form id="survey-form">
-      <p>
-        Name:
+      <p id="name-label">Name:</p>
         <input id="name" type="text">
-      </p>
-      <p>
-        Email:
+      <p id="email-label">Email:</p>
         <input id="email" type="email" oninvalid="alert('Invalid email')" required>
-      </p>
-      <p>
-          Phone or cellphone number:
-          <input id="number" type="tel" oninvalid="alert('Invalid number')" required>
-        </p>
-
+      <p id="number-label">Phone or cellphone number:</p>
+        <input id="number" type="tel" oninvalid="alert('Invalid number')" required min="7" max="10">
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
