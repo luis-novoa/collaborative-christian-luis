@@ -11,11 +11,18 @@
     <p id="description">This is a demographic survey to build a new park</p>
     <form id="survey-form">
       <p id="name-label">Name:</p>
-        <input id="name" type="text">
+        <input id="name" type="text" value="Eg. John Smith">
       <p id="email-label">Email:</p>
-        <input id="email" type="email" oninvalid="alert('Invalid email')" required>
+        <input id="email" type="email" oninvalid="alert('Invalid email')" required value="john.smith@yourmail.com">
       <p id="number-label">Phone or cellphone number:</p>
-        <input id="number" type="tel" oninvalid="alert('Invalid number')" required min="7" max="10">
+        <input id="number" type="tel" oninvalid="alert('Invalid number')" required min="7" max="10" value="1234-5678"> <br>
+      <select id="dropdown">
+        <option value="firstOne">First option</option>
+        <option value="secondOne">Second option</option>
+      </select> <br>
+      <input type="radio" name="oneOption" value="firstRadio"> <br>
+      <input type="radio" name="oneOption" value="secondRadio"> <br>
+      <input type="radio" name="oneOption" value="thirdRadio"> <br>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
