@@ -1,9 +1,19 @@
-.container{
-  display: block;
-  text-align: center; 
+body{
+  margin-left: 27em;
 }
 
 #survey-form {
   display: grid;
-  grid-template: 100% / 200px 200px;
+  grid-template: 1fr / 200px 200px;
+  text-align: left;
+
+}
+
+.twocolumns{
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+.options{
+  text-align: left;
 }
